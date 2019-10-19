@@ -2,7 +2,7 @@
 'use strict';
 
 
-var fontName = "Lato";
+var fontName = "Playfair Display";
 
 exports.fontName = fontName;
 /* No side effect */

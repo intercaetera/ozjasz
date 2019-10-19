@@ -14,16 +14,40 @@ module Styles = {
     color(hex("F8C50B"))
   ])
 
+  let container = style([
+    maxWidth(px(700)),
+    position(relative),
+    textAlign(`right),
+    display(flexBox),
+    before([
+      opacity(0.2),
+      position(absolute),
+      display(block),
+      contentRule("&"),
+      fontSize(rem(8.)),
+      right(px(0)),
+    ])
+  ])
+
+  let jumbo = style([
+    opacity(0.5),
+    position(absolute),
+    top(px(-50)),
+  ])
+
   let header = style([
-    fontSize(rem(5.))
+    fontSize(rem(5.)),
+    paddingLeft(rem(10.))
   ])
 };
 
 [@react.component]
 let make = () =>
   <div className=Styles.wrapper>
-    <h1 className=Styles.header>
-      {React.string("0ZJ4SZ G0LDB3RG")}
-      <Generator />
-    </h1>
+    <div className=Styles.container>
+      <img src="../assets/ozjasz.png" className=Styles.jumbo />
+      <h1 className=Styles.header>
+        <Generator />
+      </h1>
+    </div>
   </div>

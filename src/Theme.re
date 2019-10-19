@@ -1,1 +1,1 @@
-let fontName = "Lato";
+let fontName = "Playfair Display";
