@@ -19,7 +19,7 @@ let db = [|
     {js|Trzeba powiedzieć jasno:|js},
     {js|Jak powiedział wybitny krakowianin Stanisław Lem,|js},
     {js|Proszę mnie dobrze zrozumieć:|js},
-    {js|Ja chciałem państu przypomnieć, że|js},
+    {js|Ja chciałem państwu przypomnieć, że|js},
     {js|Niech państwo nie mają złudzeń: |js},
     {js|Powiedzmy to wyraźnie:|js},
   ],

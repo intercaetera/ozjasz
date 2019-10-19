@@ -15,7 +15,10 @@ var quote = Css.style(/* :: */[
         Css.maxWidth(Css.px(960)),
         /* :: */[
           Css.margin(Css.auto),
-          /* [] */0
+          /* :: */[
+            Css.fontWeight(Css.light),
+            /* [] */0
+          ]
         ]
       ]
     ]);

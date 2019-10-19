@@ -5,6 +5,7 @@ module Styles = {
     fontSize(rem(1.5)),
     maxWidth(px(960)),
     margin(auto),
+    fontWeight(light)
   ])
 }
 

@@ -42,7 +42,7 @@ var db = /* array */[
                                       /* :: */[
                                         "Proszę mnie dobrze zrozumieć:",
                                         /* :: */[
-                                          "Ja chciałem państu przypomnieć, że",
+                                          "Ja chciałem państwu przypomnieć, że",
                                           /* :: */[
                                             "Niech państwo nie mają złudzeń: ",
                                             /* :: */[

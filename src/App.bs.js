@@ -45,22 +45,78 @@ var wrapper = Css.style(/* :: */[
       ]
     ]);
 
+var container = Css.style(/* :: */[
+      Css.maxWidth(Css.px(700)),
+      /* :: */[
+        Css.position(Css.relative),
+        /* :: */[
+          Css.textAlign(/* right */-379319332),
+          /* :: */[
+            Css.display(Css.flexBox),
+            /* :: */[
+              Css.before(/* :: */[
+                    Css.opacity(0.2),
+                    /* :: */[
+                      Css.position(Css.absolute),
+                      /* :: */[
+                        Css.display(Css.block),
+                        /* :: */[
+                          Css.contentRule("&"),
+                          /* :: */[
+                            Css.fontSize(Css.rem(8)),
+                            /* :: */[
+                              Css.right(Css.px(0)),
+                              /* [] */0
+                            ]
+                          ]
+                        ]
+                      ]
+                    ]
+                  ]),
+              /* [] */0
+            ]
+          ]
+        ]
+      ]
+    ]);
+
+var jumbo = Css.style(/* :: */[
+      Css.opacity(0.5),
+      /* :: */[
+        Css.position(Css.absolute),
+        /* :: */[
+          Css.top(Css.px(-50)),
+          /* [] */0
+        ]
+      ]
+    ]);
+
 var header = Css.style(/* :: */[
       Css.fontSize(Css.rem(5)),
-      /* [] */0
+      /* :: */[
+        Css.paddingLeft(Css.rem(10)),
+        /* [] */0
+      ]
     ]);
 
 var Styles = /* module */[
   /* wrapper */wrapper,
+  /* container */container,
+  /* jumbo */jumbo,
   /* header */header
 ];
 
 function App(Props) {
   return React.createElement("div", {
               className: wrapper
-            }, React.createElement("h1", {
-                  className: header
-                }, "0ZJ4SZ G0LDB3RG", React.createElement(Generator$ReactHooksTemplate.make, { })));
+            }, React.createElement("div", {
+                  className: container
+                }, React.createElement("img", {
+                      className: jumbo,
+                      src: "../assets/ozjasz.png"
+                    }), React.createElement("h1", {
+                      className: header
+                    }, React.createElement(Generator$ReactHooksTemplate.make, { }))));
 }
 
 var make = App;
