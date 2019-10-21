@@ -45,7 +45,7 @@ module Styles = {
 let make = () =>
   <div className=Styles.wrapper>
     <div className=Styles.container>
-      <img src="../build/assets/ozjasz.png" className=Styles.jumbo />
+      <img src="assets/ozjasz.png" className=Styles.jumbo />
       <h1 className=Styles.header>
         <Generator />
       </h1>
