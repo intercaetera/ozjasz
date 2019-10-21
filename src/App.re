@@ -1,3 +1,6 @@
+[@bs.module]
+external bg : string = "./assets/bg.png"
+
 module Styles = {
   open Css;
 
@@ -19,6 +22,7 @@ module Styles = {
     position(relative),
     textAlign(`right),
     display(flexBox),
+    padding(rem(0.5)),
     before([
       opacity(0.2),
       position(absolute),
@@ -45,7 +49,7 @@ module Styles = {
 let make = () =>
   <div className=Styles.wrapper>
     <div className=Styles.container>
-      <img src="assets/ozjasz.png" className=Styles.jumbo />
+      <img src=bg className=Styles.jumbo />
       <h1 className=Styles.header>
         <Generator />
       </h1>
